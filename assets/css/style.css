@@ -252,3 +252,82 @@ a {
     background: #666666;
 }
 
+
+@media screen and (max-width: 768px) {
+
+.name {
+    width: 100%;
+    margin-left: 0;
+}
+
+.nav {
+    width: 20%;
+    padding: auto;
+    border: 1px solid;
+    text-align: center;
+    background-color: #666666;
+}
+
+.bars {
+    display: none;
+}
+
+
+.buttons {
+    position: relative;
+    right: 10px;
+}
+
+.portfoliocontent {
+    width: 65%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.aboutme {
+    width: 95%;
+    height: 95%;
+}
+
+.form {
+    width:60%;
+    padding: auto;
+    
+}
+
+.form {
+    padding: auto;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+.portfoliocontent {
+    width: 60%;
+    padding: 30px;;
+}
+width: 200px;
+
+.aboutme {
+    height: 1000px;
+}
+
+textarea {
+    width: 200px;
+}
+
+body {
+    height: 2000px;
+}
+
+#buttons {
+    margin-top: 20px;
+    align-content: center;
+}
+
+
+
+}
